@@ -1,6 +1,6 @@
 body {
     font-family: Georgia, 'Times New Roman', Times, serif;
-    padding: 0 30px;
+    padding: 0 0px;
 }
 .header {
     margin: 45px 0 0 0;
@@ -114,5 +114,30 @@ margin-top: 130px;
     padding: 0 0 130px 0;
 }
 
+.subscribe{
+    background: #f0f0f0;
+    text-align: center;
+}
+.subscribe-block{
+    padding: 50px 0 73px;
+}
+.subscribe-block__title{
+    font-size: 30px;
+    line-height: 1.2;
+    font-weight: 400;
+    letter-spacing: 0.025em;
+    color: #333333;
+    margin: 0 0 50px 0;
+}
+.subscribe-block__input {
+    position: relative;
 
+}
 
+.subscribe-block__input input{
+
+    height: 36px;
+    width: 408px;
+    background: #f0f0f0;
+    border-bottom: 1px solid black;
+}
