@@ -1,0 +1,33 @@
+body {
+
+}
+.header {
+    margin: 45px 0 0 0;
+}
+.container {
+    max-width: 1065px;
+    margin: 0 auto;
+}
+.header-top {
+    display: flex;
+    justify-content: space-between;
+}
+.header-top__logo{
+    margin: 0 340px 0 0;
+}
+.header-top__menu {
+    display: flex;
+    margin: 0 0 60px 0;
+}
+.header-top__menu li {
+    font-size: 14px;
+    line-height: 24px;
+    font-weight: 400;
+    text-transform: uppercase;
+    color: #626262;
+    margin-right: 115px;
+}
+
+.header-top__photo img {
+    max-width: 100%;
+}
